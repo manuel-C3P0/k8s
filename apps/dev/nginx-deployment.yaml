@@ -1,3 +1,10 @@
+# Con esto se crea el ns , si no habria que crearlo previamente
+# a mano . Ejem; kubectl create namespace dev-ngnix
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev-ngnix
+# 
 apiVersion: apps/v1
 kind: Deployment
 metadata:
